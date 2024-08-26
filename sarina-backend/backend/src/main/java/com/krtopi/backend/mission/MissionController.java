@@ -37,6 +37,7 @@ public class MissionController {
                 .map(existingMission -> {
                     existingMission.setTitle(missionEntity.getTitle());
                     existingMission.setDescription(missionEntity.getDescription());
+                    existingMission.setRarity(missionEntity.getRarity());
                     existingMission.setIssuedDate(missionEntity.getIssuedDate());
                     existingMission.setExpirationDate(missionEntity.getExpirationDate());
                     return new ResponseEntity<>(missionService.save(existingMission), HttpStatus.OK);

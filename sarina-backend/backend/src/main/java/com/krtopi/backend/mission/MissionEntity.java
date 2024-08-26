@@ -11,6 +11,7 @@ public class MissionEntity {
     private String id;
     private String title;
     private String description;
+    private String rarity;
     private Date issuedDate;
     private Date expirationDate;
 
@@ -36,6 +37,14 @@ public class MissionEntity {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getRarity() {
+        return rarity;
+    }
+
+    public void setRarity(String rarity) {
+        this.rarity = rarity;
     }
 
     public Date getIssuedDate() {
