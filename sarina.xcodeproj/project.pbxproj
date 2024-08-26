@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		422298F02C7CFA0600119FC5 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422298EF2C7CFA0600119FC5 /* NetworkingManager.swift */; };
+		422298F42C7D3B5400119FC5 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422298F32C7D3B5400119FC5 /* Task.swift */; };
+		422298FA2C7D3B7B00119FC5 /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422298F92C7D3B7B00119FC5 /* Sticker.swift */; };
 		422B11572C51ED1C008DFA0C /* sarinaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B11562C51ED1C008DFA0C /* sarinaApp.swift */; };
 		422B11592C51ED1C008DFA0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B11582C51ED1C008DFA0C /* ContentView.swift */; };
 		422B115B2C51ED31008DFA0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422B115A2C51ED31008DFA0C /* Assets.xcassets */; };
@@ -27,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		422298EF2C7CFA0600119FC5 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		422298F32C7D3B5400119FC5 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		422298F92C7D3B7B00119FC5 /* Sticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
 		422B11532C51ED1C008DFA0C /* sarina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sarina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		422B11562C51ED1C008DFA0C /* sarinaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sarinaApp.swift; sourceTree = "<group>"; };
 		422B11582C51ED1C008DFA0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +64,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		422298F12C7D3B3F00119FC5 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				422298F22C7D3B4600119FC5 /* Model */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		422298F22C7D3B4600119FC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				422298F32C7D3B5400119FC5 /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		422298F52C7D3B5800119FC5 /* Sticker */ = {
+			isa = PBXGroup;
+			children = (
+				422298F82C7D3B7000119FC5 /* Model */,
+			);
+			path = Sticker;
+			sourceTree = "<group>";
+		};
+		422298F82C7D3B7000119FC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				422298F92C7D3B7B00119FC5 /* Sticker.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		422B114A2C51ED1B008DFA0C = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +165,8 @@
 		422B11692C51EFF3008DFA0C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				422298F52C7D3B5800119FC5 /* Sticker */,
+				422298F12C7D3B3F00119FC5 /* Task */,
 				422B116F2C51F137008DFA0C /* User */,
 			);
 			path = Shared;
@@ -137,6 +177,7 @@
 			children = (
 				422B116B2C51F0DF008DFA0C /* SwiftConstants.swift */,
 				422B116D2C51F103008DFA0C /* MockData.swift */,
+				422298EF2C7CFA0600119FC5 /* NetworkingManager.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -309,6 +350,7 @@
 				422B118B2C51F4BE008DFA0C /* ImageScrollOverlay.swift in Sources */,
 				422B11592C51ED1C008DFA0C /* ContentView.swift in Sources */,
 				422B116E2C51F103008DFA0C /* MockData.swift in Sources */,
+				422298F02C7CFA0600119FC5 /* NetworkingManager.swift in Sources */,
 				422B118D2C51F517008DFA0C /* CardImageIndicatorView.swift in Sources */,
 				422B11872C51F45D008DFA0C /* ImageInfoView.swift in Sources */,
 				422B11572C51ED1C008DFA0C /* sarinaApp.swift in Sources */,
@@ -316,8 +358,10 @@
 				422B117F2C51F30B008DFA0C /* CardModel.swift in Sources */,
 				422B11892C51F4AD008DFA0C /* SwipeActionIndicatorView.swift in Sources */,
 				422B11722C51F14E008DFA0C /* User.swift in Sources */,
+				422298FA2C7D3B7B00119FC5 /* Sticker.swift in Sources */,
 				422B116C2C51F0DF008DFA0C /* SwiftConstants.swift in Sources */,
 				422B11832C51F35F008DFA0C /* CardService.swift in Sources */,
+				422298F42C7D3B5400119FC5 /* Task.swift in Sources */,
 				422B11792C51F21D008DFA0C /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

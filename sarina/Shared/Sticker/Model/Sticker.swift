@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct Sticker{
+    let id: Int
+    let title: String
+    let rarity: String
+    let description: String
+    let imageUrl: String
+    let parentSetName: String
+    let createdDate: Date
+}
