@@ -16,7 +16,7 @@ struct Sticker: Decodable{
     let parentSetName: String
     let createdDate: Date
 }
-struct StickerResponse{
+struct StickerResponse: Decodable{
     let request: [Sticker]
 }
 struct MockStickerData {

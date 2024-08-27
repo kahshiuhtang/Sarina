@@ -11,6 +11,7 @@
 		422298F42C7D3B5400119FC5 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422298F32C7D3B5400119FC5 /* Task.swift */; };
 		422298FA2C7D3B7B00119FC5 /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422298F92C7D3B7B00119FC5 /* Sticker.swift */; };
 		422298FE2C7D566D00119FC5 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422298FD2C7D566D00119FC5 /* TaskListView.swift */; };
+		422299002C7D6AE000119FC5 /* SRError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422298FF2C7D6AE000119FC5 /* SRError.swift */; };
 		422B11572C51ED1C008DFA0C /* sarinaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B11562C51ED1C008DFA0C /* sarinaApp.swift */; };
 		422B11592C51ED1C008DFA0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B11582C51ED1C008DFA0C /* ContentView.swift */; };
 		422B115B2C51ED31008DFA0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422B115A2C51ED31008DFA0C /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		422298F32C7D3B5400119FC5 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		422298F92C7D3B7B00119FC5 /* Sticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
 		422298FD2C7D566D00119FC5 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		422298FF2C7D6AE000119FC5 /* SRError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRError.swift; sourceTree = "<group>"; };
 		422B11532C51ED1C008DFA0C /* sarina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sarina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		422B11562C51ED1C008DFA0C /* sarinaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sarinaApp.swift; sourceTree = "<group>"; };
 		422B11582C51ED1C008DFA0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				422B116B2C51F0DF008DFA0C /* SwiftConstants.swift */,
 				422B116D2C51F103008DFA0C /* MockData.swift */,
 				422298EF2C7CFA0600119FC5 /* NetworkingManager.swift */,
+				422298FF2C7D6AE000119FC5 /* SRError.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 				422B11572C51ED1C008DFA0C /* sarinaApp.swift in Sources */,
 				422B11852C51F443008DFA0C /* CardView.swift in Sources */,
 				422B117F2C51F30B008DFA0C /* CardModel.swift in Sources */,
+				422299002C7D6AE000119FC5 /* SRError.swift in Sources */,
 				422B11892C51F4AD008DFA0C /* SwipeActionIndicatorView.swift in Sources */,
 				422B11722C51F14E008DFA0C /* User.swift in Sources */,
 				422298FA2C7D3B7B00119FC5 /* Sticker.swift in Sources */,
