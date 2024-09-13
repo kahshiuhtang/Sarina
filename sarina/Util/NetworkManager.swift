@@ -1,8 +1,8 @@
 //
-//  SRError.swift
+//  NetworkManager.swift
 //  sarina
 //
-//  Created by Kah Shiuh Tang on 8/26/24.
+//  Created by Kah Shiuh Tang on 9/13/24.
 //
 
 import Foundation
@@ -15,3 +15,4 @@ enum NetworkError: Error {
     case decoding(Error?)
     case serverError
 }
+typealias ResultHandler<T> = (Result<T, NetworkError>) -> Void
